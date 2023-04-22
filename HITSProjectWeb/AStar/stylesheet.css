@@ -1,0 +1,31 @@
+td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(59, 59, 59);
+}
+button {
+    margin: 10px;
+    padding: 5px;
+}
+.path {
+    background-color: rgb(184, 31, 176);
+}
+.impassable{
+    background-color: #222222;
+}
+
+p {
+    text-align: center;
+}
+body {
+    background-color: #222222;
+    color: #222222;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}

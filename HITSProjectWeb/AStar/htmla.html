@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Поиск пути A*</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+  <body>
+
+    <h1>Поиск пути A*</h1>
+
+    <p>Введите размер карты:</p>
+    <p><input type="number" id="size" value="10"><button onclick="generateMap()">Сгенерировать новую карту</button></p>
+    
+    <p>ВЫберите начальную и конечную точки, после чего расставьте стенки</p>
+
+    <p><table id="table"></table></p>
+
+    <p><button onclick="findPath()">Найти путь</button></p>
+
+    <script type="text/javascript" src="scripta.js"></script>
+
+  </body>
+</html>

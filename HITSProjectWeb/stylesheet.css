@@ -1,0 +1,34 @@
+body {
+    background-color: #222222;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+h2 {
+    text-align: center;
+    color: #946eaf;
+    height:100%
+}
+h2:hover{
+     color: #979797;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.col {
+    width: 30%;
+    margin: 20px;
+    background-color: #30253a;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
